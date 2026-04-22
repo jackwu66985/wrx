@@ -1,0 +1,14 @@
+<view class="container">
+  <view class="card intro-card">
+    <view class="section-title">其他个人设计作品</view>
+    <text class="paragraph">以下为毕业设计之外的代表项目，可按类型快速浏览。</text>
+  </view>
+
+  <view class="card" wx:for="{{categories}}" wx:key="name">
+    <view class="category-title">{{item.name}}</view>
+    <view class="project" wx:for="{{item.projects}}" wx:key="title">
+      <view class="project-name">{{item.title}}</view>
+      <view class="project-desc">{{item.desc}}</view>
+    </view>
+  </view>
+</view>

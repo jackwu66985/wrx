@@ -1,0 +1,20 @@
+<view class="container">
+  <view class="card">
+    <view class="section-title">联系我</view>
+    <view class="line">微信：{{contact.wechat}}</view>
+    <view class="line">邮箱：{{contact.email}}</view>
+    <view class="line">所在城市：{{contact.city}}</view>
+  </view>
+
+  <view class="card">
+    <view class="section-title">可提供服务</view>
+    <block wx:for="{{contact.service}}" wx:key="*this">
+      <view class="service-item">✓ {{item}}</view>
+    </block>
+  </view>
+
+  <view class="card">
+    <view class="section-title">合作说明</view>
+    <text class="paragraph">欢迎校招、实习与自由合作邀约。可提供完整作品集与项目过程文档。</text>
+  </view>
+</view>

@@ -1,0 +1,9 @@
+{
+  "desc": "项目默认配置",
+  "rules": [
+    {
+      "action": "allow",
+      "page": "*"
+    }
+  ]
+}

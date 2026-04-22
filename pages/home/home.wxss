@@ -1,0 +1,38 @@
+.hero {
+  text-align: center;
+  padding-top: 36rpx;
+  padding-bottom: 36rpx;
+}
+
+.avatar {
+  width: 140rpx;
+  height: 140rpx;
+  line-height: 140rpx;
+  margin: 0 auto 18rpx;
+  border-radius: 50%;
+  font-size: 60rpx;
+  font-weight: 700;
+  color: #fff;
+  background: linear-gradient(135deg, #2563eb, #7c3aed);
+}
+
+.name {
+  font-size: 42rpx;
+  font-weight: 700;
+}
+
+.title {
+  margin-top: 8rpx;
+  color: #374151;
+}
+
+.school {
+  margin-top: 8rpx;
+  color: #6b7280;
+  font-size: 24rpx;
+}
+
+.paragraph {
+  color: #374151;
+  line-height: 1.8;
+}

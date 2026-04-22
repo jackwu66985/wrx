@@ -1,0 +1,22 @@
+<view class="container">
+  <view class="card hero">
+    <view class="avatar">张</view>
+    <view class="name">{{profile.name}}</view>
+    <view class="title">{{profile.title}}</view>
+    <view class="school">{{profile.school}}</view>
+  </view>
+
+  <view class="card">
+    <view class="section-title">个人简介</view>
+    <text class="paragraph">{{profile.intro}}</text>
+  </view>
+
+  <view class="card">
+    <view class="section-title">核心能力</view>
+    <view>
+      <block wx:for="{{profile.skills}}" wx:key="*this">
+        <text class="tag">{{item}}</text>
+      </block>
+    </view>
+  </view>
+</view>

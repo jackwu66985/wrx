@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/thesis/thesis",
+    "pages/works/works",
+    "pages/about/about"
+  ],
+  "window": {
+    "navigationBarTitleText": "个人作品集",
+    "navigationBarBackgroundColor": "#111827",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#f3f4f6",
+    "backgroundTextStyle": "light"
+  },
+  "tabBar": {
+    "color": "#6b7280",
+    "selectedColor": "#111827",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "简介"
+      },
+      {
+        "pagePath": "pages/thesis/thesis",
+        "text": "毕业设计"
+      },
+      {
+        "pagePath": "pages/works/works",
+        "text": "作品集"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "text": "联系"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

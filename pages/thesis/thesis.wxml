@@ -1,0 +1,18 @@
+<view class="container">
+  <view class="card">
+    <view class="project-title">{{thesis.title}}</view>
+    <view class="project-subtitle">{{thesis.subtitle}}</view>
+  </view>
+
+  <view class="card">
+    <view class="section-title">项目时间线</view>
+    <block wx:for="{{thesis.timeline}}" wx:key="*this">
+      <view class="timeline-item">• {{item}}</view>
+    </block>
+  </view>
+
+  <view class="card" wx:for="{{thesis.sections}}" wx:key="heading">
+    <view class="section-title">{{item.heading}}</view>
+    <text class="paragraph">{{item.content}}</text>
+  </view>
+</view>
