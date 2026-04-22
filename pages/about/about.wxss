@@ -1,0 +1,21 @@
+.line {
+  color: #374151;
+  margin-bottom: 10rpx;
+}
+
+.line:last-child {
+  margin-bottom: 0;
+}
+
+.service-item {
+  background: #f9fafb;
+  border-radius: 14rpx;
+  padding: 14rpx;
+  margin-bottom: 10rpx;
+  color: #374151;
+}
+
+.paragraph {
+  color: #4b5563;
+  line-height: 1.8;
+}

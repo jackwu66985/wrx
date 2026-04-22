@@ -1,0 +1,31 @@
+.intro-card .paragraph {
+  color: #4b5563;
+  line-height: 1.8;
+}
+
+.category-title {
+  font-size: 32rpx;
+  font-weight: 700;
+  margin-bottom: 14rpx;
+}
+
+.project {
+  padding: 16rpx;
+  background: #f9fafb;
+  border-radius: 16rpx;
+  margin-bottom: 12rpx;
+}
+
+.project:last-child {
+  margin-bottom: 0;
+}
+
+.project-name {
+  font-weight: 600;
+  margin-bottom: 8rpx;
+}
+
+.project-desc {
+  color: #4b5563;
+  line-height: 1.6;
+}

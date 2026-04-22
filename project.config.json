@@ -1,0 +1,18 @@
+{
+  "description": "个人设计作品展示小程序",
+  "packOptions": {
+    "ignore": []
+  },
+  "setting": {
+    "urlCheck": false,
+    "es6": true,
+    "enhance": true,
+    "postcss": true,
+    "minified": true
+  },
+  "compileType": "miniprogram",
+  "libVersion": "3.6.2",
+  "appid": "touristappid",
+  "projectname": "designer-portfolio",
+  "condition": {}
+}
